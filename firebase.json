@@ -16,14 +16,6 @@
         "destination": "/index.html"
       },
       {
-        "source": "xxxxxx.spime.kubecrew.io",
-        "destination": "/index.html"
-      },
-      {
-        "source": "xxxxxx2.spime.kubecrew.io",
-        "destination": "/index.html"
-      },
-      {
         "source": "/addMessage",
         "function": "addMessage"
       },
