@@ -1,7 +1,9 @@
 # firebase-demo
 ---
 
+An Example which leverages FireBase Hosting to route traffic to FireBase Functions with CustomDomain support.
 
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
