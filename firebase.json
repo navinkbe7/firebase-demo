@@ -1,0 +1,37 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "xxxxxx.web.app",
+        "destination": "/index.html"
+      },
+      {
+        "source": "xxxxxx.firebaseapp.com",
+        "destination": "/index.html"
+      },
+      {
+        "source": "xxxxxx.spime.kubecrew.io",
+        "destination": "/index.html"
+      },
+      {
+        "source": "xxxxxx2.spime.kubecrew.io",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/addMessage",
+        "function": "addMessage"
+      },
+      {
+        "source": "/getManifests",
+        "function": "getManifests"
+      }
+      
+    ]
+  }
+}
